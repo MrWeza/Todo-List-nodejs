@@ -97,11 +97,6 @@ app.get('/delete-task', function(req,res){
 
 });
 
-// healthcheck route
-app.get('/health', (req, res) => {
-    res.status(200).send('OK');
-});
-
 app.listen(port,(err) => {
     if (err) {
         console.log(`Error: ${err}`);
