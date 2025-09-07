@@ -97,7 +97,6 @@ app.get('/delete-task', function(req,res){
 
 });
 
-// health check endpoint
 app.get('/health', (req, res) => {
     res.status(200).send('OK');
 });
