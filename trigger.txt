@@ -1,2 +1,1 @@
-Just triggering GitHub Actions v5
-trying to fox git
+Just triggering GitHub Actions v6
