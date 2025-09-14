@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/MrWeza/Todo-List-nodejs.git
     targetRevision: HEAD
-    path: C:\siu\MyGitHub\Todo-List-nodejs\k8s
+    path: k8s
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
